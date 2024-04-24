@@ -1,5 +1,5 @@
 body{
-    font-family: Arial;
+    font-family: Roboto;
     color: white;
     margin: 0;
 
@@ -11,6 +11,7 @@ ul{
     margin: 0px;
     gap: 20px;
     font-size: 18px;
+    font-weight: lighter;
 }
 
 a{
@@ -24,6 +25,14 @@ a{
    background-color: #1F2937;
    padding: 0px 125px;
    
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 25px 0px;
 }
 
 .header{
@@ -48,12 +57,14 @@ a{
     flex-basis: 425px;
     gap:10px;
 }
-.main-text{
+
+
+.hero .main-text{
     font-size: 48px;
     font-weight: bolder;    
 }
 
-.secondary-text{
+.hero .secondary-text{
     color:#E5E7EB;
     font-size: 18px;
 
@@ -96,6 +107,7 @@ a{
     flex-basis: 200px;
     align-items: center;
     gap:10px;
+    font-weight: normal;
 }
 
 
@@ -122,4 +134,38 @@ a{
 .credit{
     text-align: right;
     font-size: 18px;
+    font-weight: bolder;
+}
+
+.cta{
+    padding: 100px 125px;
+}
+
+.cta-card{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    font-size: 18px;
+    padding: 45px 100px; 
+}
+
+.cta-card .main-text{
+    font-weight: bolder;
+}
+.cta-card .secondary-text{
+    font-weight: normal;
+}
+
+.cta button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border:1px white solid;
+    width: 100px;
+    height: 35px;
 }
